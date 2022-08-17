@@ -1,0 +1,9 @@
+AuthorName = 'Krishna Bandi'
+mainSections = ["blog", "posts", "docs", "notes"]
+readingTime = true
+site_logo = "static/images/logo.png"
+[codeBlock]
+maxLines = 3
+lineNos = true
+[post]
+copyright = false

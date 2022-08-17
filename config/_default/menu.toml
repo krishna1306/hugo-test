@@ -1,0 +1,21 @@
+[[main]]
+  name = "Posts"
+  identifier = "Posts"
+  weight = 1
+[[main]]
+  name = "Automation"
+  identifier = "Automation"
+  url = "posts/automation"
+  parent = "Posts"
+  weight = 1
+[[main]]
+  parent = "Posts"
+  identifier = "posts-divider"
+  weight = 2
+  [main.params]
+    divider = true
+[[main]]
+  name = "General"
+  identifier = "General"
+  parent = "Posts"
+  weight = 3
